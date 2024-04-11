@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center; 
+}
+.header-container {
+    height: 69px; 
+    width: 1200px; 
+    border-bottom: 1px solid seashell; 
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-bottom: 100px; 
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.logo-container {
+    max-width: 100%;
+}
+
+.logo-container img {
+    margin: 10px; 
+    height: 50px; 
+}
+
+.navbar-container {
+    display: inline-flex; 
+    max-width: 100%;
+}
+
+.navbar-container h4 {
+    text-decoration: underline;
+    margin: 15px; 
+    color: seashell; 
+}
+
+.bg-img {
+    background-image: url(img/img-mission-background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 1200px; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 100%;
+}
+
+.main-heading {
+    width: 1200px;
+    background-color: black;
+    max-width: 100%;
+  
+}
+
+.tea-container {
+    width: 1000px; 
+    display: inline-flexbox;
+    align-content: flex-start;
+    justify-content: center;
+    
+}
+
+.monthly-container {
+    width: 1000px; 
+    max-width: 100%;
+    display: inline-flex;
+
+}
+
+.monthly-tea-container {
+    width: 1000px;
+    max-width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px; 
+}
+.monthly-tea {
+    margin: 10px; 
+}
+.monthly-tea img {
+    width: 300px;
+    height: 200px; 
+}
+
+.monthly-tea h4 {
+    margin-top: 10px; 
+}
+
+.locations-container {
+    background-image: url(img/img-locations-background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 1200px; 
+    display: flex;
+    max-width: 100%; 
+}
+
+.locations {
+    background-color: black; 
+    margin: 40px; 
+    width: 300px; 
+    opacity: 1; 
+    align-content: center;
+    height: 300px; 
+    padding: 5px; 
+}
+
+.locations li {
+    list-style: none; 
+}
+
+.footer-1 {
+    height: 200px;
+    line-height: 2.7;
+}
+
+.footer-2 {
+    text-align: left;
+    margin: 20px;
+}
