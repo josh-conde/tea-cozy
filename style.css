@@ -10,12 +10,10 @@ html {
     background-color: black;
     opacity: 0.9;
     text-align: center; 
-    display: flex;
 }
 
 .header-container {
     height: 69px; 
-    width: 1200px; 
     border-bottom: 1px solid seashell; 
     position: fixed;
     display: flex;
@@ -23,7 +21,7 @@ html {
     background-color: black;
     margin-bottom: 100px; 
     align-items: flex-start;
-    max-width: 100%;
+    width: 100%; 
 }
 
 .logo-container {
@@ -44,6 +42,10 @@ html {
     text-decoration: underline;
     margin: 15px; 
     color: seashell; 
+}
+
+.bg-img-container {
+    justify-content: center; 
 }
 
 .bg-img {
@@ -67,15 +69,14 @@ html {
 
 .tea-container {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: row; 
+    align-content: center;
+    justify-content: center; 
     height: 500px;
     width: 1000px;  
     margin: 80px; 
-    max-width: 100%;
     flex: 1; 
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .monthly-container {
