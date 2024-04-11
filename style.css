@@ -45,7 +45,8 @@ html {
 }
 
 .bg-img-container {
-    justify-content: center; 
+    justify-content: center;
+    display: flex;  
 }
 
 .bg-img {
@@ -70,11 +71,7 @@ html {
 .tea-container {
     display: flex;
     align-content: center;
-    justify-content: center; 
-    height: 500px;
-    width: 1000px;  
-    margin: 80px; 
-    flex: 1; 
+    justify-items: center; 
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -84,6 +81,8 @@ html {
     max-width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column; 
+    padding: 20px; 
 }
 
 .monthly-container li {
@@ -94,6 +93,9 @@ html {
     display: inline-flex; 
     justify-content: space-around;
     padding: 10px;
+    text-align: center;
+    width: 1000px; 
+    flex-wrap: wrap; 
 }
 
 .monthly-tea {
@@ -116,7 +118,15 @@ html {
     height: 500px;
     width: 1200px; 
     display: flex;
-    max-width: 100%; 
+    align-items: center;  
+    flex-wrap: wrap; 
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.locations-header {
+   width: 1200px;
+   margin-top: 50px;  
 }
 
 .locations {
@@ -124,9 +134,9 @@ html {
     margin: 40px; 
     width: 300px; 
     opacity: 1; 
-    align-content: center;
     height: 300px; 
-    padding: 5px; 
+    padding: 5px;
+    align-content: center; 
 }
 
 .locations li {
